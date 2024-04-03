@@ -9,3 +9,35 @@
 .paragraf {
     line-height: 0.5em;
 }
+
+.table {
+    width:100%;
+    height:auto;
+    border-collapse: collapse;
+    table-layout:auto;
+  }
+  .col1, .col2 { 
+    width:25%;
+  }
+  
+  .col3 {
+   width:50%;
+  }
+  
+  .titletable {
+      background-color:rgb(68, 210, 246);
+      color: white;
+      text-align: left;
+  }
+  .firstline {
+      background-color:rgb(151, 215, 222);
+  }
+  
+  .secondline{
+      background-color:white;
+  }
+  
+  .thirdline {
+      background-color: rgb(151, 215, 222);
+  }
+  
