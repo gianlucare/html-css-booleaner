@@ -15,11 +15,17 @@
     height:auto;
     border-collapse: collapse;
     table-layout:auto;
+    text-align: left;
   }
-  .col1, .col2 { 
+
+  .col1 { 
     width:25%;
   }
   
+  .col2 { 
+    width:25%;
+  }
+
   .col3 {
    width:50%;
   }
@@ -31,13 +37,33 @@
   }
   .firstline {
       background-color:rgb(151, 215, 222);
+      text-align:left;
   }
   
   .secondline{
       background-color:white;
+      text-align:left;
   }
   
   .thirdline {
       background-color: rgb(151, 215, 222);
+      text-align:left;
   }
   
+  .h3 {
+      color:grey;
+  }
+
+  .image {
+    background-image: url('img/monitor.jpg');
+    color: white;
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+
+.finalimage {
+    background-image: url('img/graph.jpg');
+    color: white;
+    height:200px;
+    background-repeat: no-repeat;
+}
