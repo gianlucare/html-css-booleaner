@@ -1,0 +1,11 @@
+.logo {
+    height: 140px;
+    background-color: rgb(53, 158, 227);
+    background-image: url('img/pattern.png');
+}
+.logo img {
+    width: 25%;
+}
+.paragraf {
+    line-height: 0.5em;
+}
